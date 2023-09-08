@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * Main - entry point
+ * main - entry point
  *
  * Description: print strings without using printf or puts
  *
