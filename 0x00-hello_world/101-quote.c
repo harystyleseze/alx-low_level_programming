@@ -3,9 +3,9 @@
 /**
  * Main - entry point
  *
- * Description : print strings without using printf or puts
+ * Description: print strings without using printf or puts
  *
- * Return : zero when successful
+ * Return: zero when successful
  */
 int main(void)
 {
