@@ -3,8 +3,8 @@
  * main - main block
  *
  * Description: Print the alphabet in reverse order in lowercase.
- * 
- * Return: 0
+ *
+ * Return: always zero upon successful execution
  */
 int main(void)
 {
@@ -16,4 +16,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}i
+}

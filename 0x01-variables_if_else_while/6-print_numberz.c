@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main - main block
- * 
+ *
  * Description: print all single digit
  * number less than ten
- * 
+ *
  * Return: Always 0 (success)
  */
 int main(void)
