@@ -9,7 +9,7 @@
  * Return: always zero upon successful execution
  */
 int main(void)
-{	
+{
 	int n;
 	int lastNum;
 
