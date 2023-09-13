@@ -12,7 +12,7 @@ int _putchar(char c);
 /**
  * print_alphabet - function to print alphabet
  *
- * /
+ */
 
 void print_alphabet(void);
 
@@ -65,16 +65,13 @@ int _abs(int);
 int print_last_digit(int);
 
 /**
- * jack_bauer - jack bauer gooo                   *
- *
- * 
+ * jack_bauer - jack bauer go 
  */
 
 void jack_bauer(void);
 
 /**
  * times_table - times this up
- *                                                *
  */
 
 void times_table(void);
