@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *main - entry point
- *
- *Description: print _putchar
- *
- *Return: zero
- */
+*main - entry point
+*
+*Description: print _putchar
+*
+*Return: zero
+*/
 int main(void)
 {
 	_putchar('_');
