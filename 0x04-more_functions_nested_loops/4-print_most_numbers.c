@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print_most_numberes - entry point
  *
  * Description: print_most_numbers - prints the numbers, from 0 to 9,
  * except 2 and 4, followed by a new line
- * Description: Can only use _putchar twice.
+ * Can only use _putchar twice.
  *
- * Return: zero always
+ * Return: void always
  */
-
 void print_most_numbers(void)
 {
 	int i;
