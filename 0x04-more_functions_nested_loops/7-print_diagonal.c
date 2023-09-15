@@ -11,20 +11,23 @@
  */
 void print_diagonal(int n)
 {
-	int i = 0, count;
-
-	while (i < n && n > 0)
+	if (n <= 0)
 	{
-		count = 0;
-		while (count < i)
+		_putchar('\n');
+	} else
+	{
+		int count1, count2;
+
+		for (count1 = 0; count1 < n; count1++)
 		{
-			_putchar(' ');
-			count++;
+			for (count2 = 0; count2 < n; count2++)
+			{
+				if (count2 == count1)
+					_putchar('\\');
+				else if (count2 < count1)
+					_putchar(' ');
+			}
+			_putchar('\n');
 		}
-		_putchar('\\');
-		_putchar('\n');
-		count++;
 	}
-	if (i == 0)
-		_putchar('\n');
 }
