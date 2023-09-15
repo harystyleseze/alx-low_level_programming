@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - entry point
- * print_diagonal - draw a diagonal line
- * @n: number of times the '\' char is printed
+ * print_diagonal - entry point
  * 
- * Description: Can only use _putchar to print
+ * Description: draw a diagonal line
+ * @n: number of times the '\' char is printed
+ * can only use _putchar to print
  *
  * Return: void always
  */

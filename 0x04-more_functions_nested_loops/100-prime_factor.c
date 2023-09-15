@@ -6,7 +6,7 @@
  *
  * Description: Find and print the largest prime factor of the number
  * 612852475143
- * 
+ *
  * Return: 0
  */
 

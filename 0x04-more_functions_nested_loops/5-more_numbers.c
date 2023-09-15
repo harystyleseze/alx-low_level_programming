@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * more_numbers - entry point
  *
- * Description: more_numbers - prints 10 times the numbers, from 0 to 14
+ * Description: prints 10 times the numbers, from 0 to 14
  * followed by a new line
  *
  * Return: always void

@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print_square - entry point
  *
- * Description: print_square - prints a square, followed by a new line;
+ * Description: prints a square, followed by a new line;
  * @size: size of the square
  *
  * Return: void always
