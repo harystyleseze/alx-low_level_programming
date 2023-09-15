@@ -3,7 +3,7 @@
 /**
  * print_most_numberes - entry point
  *
- * Description: print_most_numbers - prints the numbers, from 0 to 9,
+ * Description: prints the numbers, from 0 to 9,
  * except 2 and 4, followed by a new line
  * Can only use _putchar twice.
  *
