@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - magic file
- * Description: pointer
- * Return: integer
- */
-
 int main(void)
 {
 	int n;
