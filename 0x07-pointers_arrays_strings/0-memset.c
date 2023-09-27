@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * _memcpy - irontnoux2
- * @dest: pointer to char params
- * @src: pointer to char params
- * @n: size
- * Return: *dest
+ * _memset - fills memory with a constant byte,
+ * @s: memory area.
+ * @b: constant byte.
+ * @n: bytes filled.
+ * Return: the pointer to memory s
  */
 
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int counter;
+	unsigned int counter = 0;
 
-	for (counter = 0; counter < n; counter++)
+	while (counter < n)
 	{
-		dest[counter] = src[counter];
+		s[counter] = b;
+		counter++;
 	}
-	return (dest);
+
+	return (s);
 }
