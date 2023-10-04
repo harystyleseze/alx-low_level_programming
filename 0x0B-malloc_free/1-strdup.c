@@ -16,14 +16,14 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	for (count1 = 0; str[count1] != '\0'; count++)
+	for (count1 = 0; str[count1] != '\0'; count1++)
 		;
 
 	array = malloc(count1 * sizeof(*array) + 1);
 	if (array == NULL)
 		return (NULL);
 
-	for (count2 = 0; count2 < i; count2++)
+	for (count2 = 0; count2 < count1; count2++)
 		array[count2] = str[count2];
 	array[count2] = '\0';
 
