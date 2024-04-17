@@ -175,7 +175,7 @@ julien@ubuntu:~/0x18$
 
 I bought a ticket for the Giga Millions and chose these numbers: 9, 8, 10, 24, 75 + 9. If you could run two commands on the same server where the Giga Millions program runs, could you make me win the Jackpot?
 
-Our mole got us a copy of the program, you can download it here. Our mole also gave us a piece of documentation:
+Our mole got us a copy of the program, you can download it here https://github.com/alx-tools/0x18.c . Our mole also gave us a piece of documentation:
 /* Giga Millions program                                                                                    
   * Players may pick six numbers from two separate pools of numbers:                                                
   * - five different numbers from 1 to 75 and                                                                       
@@ -184,7 +184,7 @@ Our mole got us a copy of the program, you can download it here. Our mole also g
   * Your chances to win the jackpot is 1 in 258,890,850                                                             
   *                                                                                                                 
   * usage: ./gm n1 n2 n3 n4 n5 bonus
-You can’t modify the program gm itself as Master Sysadmin Sylvain (MSS) always checks its MD5 before running it
+You can’t modify the program gm itself as Master Sysadmin Sylvain (MSS) always checks its MD5 (https://github.com/alx-tools/0x18.c/blob/master/101-md5_gm) before running it
 The system is an Linux Ubuntu 16.04
 The server has internet access
 Our mole will be only able to run two commands from a shell script, without being detected by MSS
