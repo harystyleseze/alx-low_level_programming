@@ -13,7 +13,8 @@ size_t min(size_t a, size_t b)
 }
 
 /**
- * binary_search_helper - Searches for a value in an integer array using binary search
+ * binary_search_helper - Searches for a value in an integer
+ * array using binary search
  * @array: Pointer to the first element of the array to search
  * @value: Value to search for
  * @low: Starting index
@@ -47,7 +48,8 @@ int binary_search_helper(int *array, int value, size_t low, size_t high)
 }
 
 /**
- * exponential_search - Searches for a value in a sorted array using exponential search
+ * exponential_search - Searches for a value in a sorted array
+ * using exponential search
  * @array: Pointer to the first element of the array to search
  * @size: Number of elements in the array
  * @value: Value to search for
